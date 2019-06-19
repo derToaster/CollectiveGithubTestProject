@@ -11,7 +11,7 @@ public class AshkansSphere : MonoBehaviour
 
 
     private Rigidbody myBody;
-    public Vector3 jump;
+    private Vector3 jump;
     public float jumpForce = 2.0f;
     public bool isGrounded;
     

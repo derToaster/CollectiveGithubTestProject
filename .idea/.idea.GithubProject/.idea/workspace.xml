@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af8cbb84-af22-4529-be5a-97cc36c5e714" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GithubProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GithubProject/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GithubProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GithubProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MyFirstScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MyFirstScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AshkansSphere.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AshkansSphere.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,20 +14,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AshkansSphere.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+            <state relative-caret-position="645">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
-                <marker date="1560938684813" expanded="true" signature="6:117" ph="..." />
-                <marker date="1560938684813" expanded="true" signature="198:1094" ph="{...}" />
-                <marker date="1560938684813" expanded="true" signature="448:540" ph="{...}" />
-                <marker date="1560938684813" expanded="true" signature="592:631" ph="{...}" />
-                <marker date="1560938684813" expanded="true" signature="662:866" ph="{...}" />
-                <marker date="1560938684813" expanded="true" signature="884:1092" ph="{...}" />
-                <marker date="1560938684813" expanded="true" signature="976:1086" ph="{...}" />
+                <marker date="1560939200266" expanded="false" signature="6:117" ph="..." />
+                <marker date="1560939200266" expanded="true" signature="198:1095" ph="{...}" />
+                <marker date="1560939200266" expanded="true" signature="449:541" ph="{...}" />
+                <marker date="1560939200266" expanded="true" signature="593:632" ph="{...}" />
+                <marker date="1560939200266" expanded="true" signature="663:867" ph="{...}" />
+                <marker date="1560939200266" expanded="true" signature="885:1093" ph="{...}" />
+                <marker date="1560939200266" expanded="true" signature="977:1087" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/cameraFollow.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+              <folding>
+                <marker date="1560940840733" expanded="true" signature="6:92" ph="..." />
+                <marker date="1560940840733" expanded="true" signature="135:755" ph="{...}" />
+                <marker date="1560940840733" expanded="true" signature="355:436" ph="{...}" />
+                <marker date="1560940840733" expanded="true" signature="494:753" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -37,12 +54,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/cameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AshkansSphere.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/AshkansSphere.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/cameraFollow.cs" />
       </list>
     </option>
   </component>
@@ -55,8 +74,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="420" />
-    <option name="y" value="245" />
+    <option name="x" value="297" />
+    <option name="y" value="94" />
     <option name="width" value="1920" />
     <option name="height" value="961" />
   </component>
@@ -65,13 +84,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
       <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
       </pane>
       <pane id="AssemblyExplorer" />
     </panes>
@@ -122,12 +141,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560937220551</updated>
-      <workItem from="1560937222870" duration="1425000" />
+      <workItem from="1560937222870" duration="2067000" />
+      <workItem from="1560939801428" duration="292000" />
+      <workItem from="1560940292779" duration="372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1425000" />
+    <option name="totallyTimeSpent" value="2731000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -139,21 +160,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="420" y="245" width="1920" height="961" extended-state="0" />
+    <frame x="383" y="94" width="1920" height="961" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -161,12 +173,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,16 +208,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AshkansSphere.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        <state relative-caret-position="645">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
-            <marker date="1560938684813" expanded="true" signature="6:117" ph="..." />
-            <marker date="1560938684813" expanded="true" signature="198:1094" ph="{...}" />
-            <marker date="1560938684813" expanded="true" signature="448:540" ph="{...}" />
-            <marker date="1560938684813" expanded="true" signature="592:631" ph="{...}" />
-            <marker date="1560938684813" expanded="true" signature="662:866" ph="{...}" />
-            <marker date="1560938684813" expanded="true" signature="884:1092" ph="{...}" />
-            <marker date="1560938684813" expanded="true" signature="976:1086" ph="{...}" />
+            <marker date="1560939200266" expanded="false" signature="6:117" ph="..." />
+            <marker date="1560939200266" expanded="true" signature="198:1095" ph="{...}" />
+            <marker date="1560939200266" expanded="true" signature="449:541" ph="{...}" />
+            <marker date="1560939200266" expanded="true" signature="593:632" ph="{...}" />
+            <marker date="1560939200266" expanded="true" signature="663:867" ph="{...}" />
+            <marker date="1560939200266" expanded="true" signature="885:1093" ph="{...}" />
+            <marker date="1560939200266" expanded="true" signature="977:1087" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/cameraFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding>
+            <marker date="1560940840733" expanded="true" signature="6:92" ph="..." />
+            <marker date="1560940840733" expanded="true" signature="135:755" ph="{...}" />
+            <marker date="1560940840733" expanded="true" signature="355:436" ph="{...}" />
+            <marker date="1560940840733" expanded="true" signature="494:753" ph="{...}" />
           </folding>
         </state>
       </provider>

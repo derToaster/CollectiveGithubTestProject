@@ -17,6 +17,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AshkansSphere.cs" t="Include" />
+          <e p="cameraFollow.cs" t="Include" />
         </e>
       </e>
       <e p="GithubProject.sln" t="IncludeFlat" />
