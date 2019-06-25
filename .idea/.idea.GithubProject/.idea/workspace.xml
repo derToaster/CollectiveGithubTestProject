@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af8cbb84-af22-4529-be5a-97cc36c5e714" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GithubProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GithubProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GithubProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GithubProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AshkansSphere.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AshkansSphere.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AshkansSphere.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+            <state relative-caret-position="300">
+              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
               <folding>
                 <marker date="1560947525408" expanded="false" signature="6:117" ph="..." />
                 <marker date="1560947525408" expanded="true" signature="199:1287" ph="{...}" />
@@ -32,10 +32,26 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+              <folding>
+                <marker date="1561457905503" expanded="true" signature="6:108" ph="..." />
+                <marker date="1561457905503" expanded="true" signature="153:879" ph="{...}" />
+                <marker date="1561457905503" expanded="true" signature="509:788" ph="{...}" />
+                <marker date="1561457905503" expanded="true" signature="566:782" ph="{...}" />
+                <marker date="1561457905503" expanded="true" signature="846:867" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/cameraFollow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="375">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <marker date="1560940840733" expanded="true" signature="6:92" ph="..." />
@@ -55,12 +71,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/cameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AshkansSphere.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/cameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AshkansSphere.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" />
       </list>
     </option>
   </component>
@@ -72,17 +90,16 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="297" />
-    <option name="y" value="94" />
-    <option name="width" value="1920" />
-    <option name="height" value="961" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
@@ -90,7 +107,6 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -145,11 +161,13 @@
       <workItem from="1560939801428" duration="292000" />
       <workItem from="1560940292779" duration="867000" />
       <workItem from="1560947206547" duration="320000" />
+      <workItem from="1561456605993" duration="448000" />
+      <workItem from="1561457452241" duration="528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3546000" />
+    <option name="totallyTimeSpent" value="4522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -161,10 +179,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="297" y="94" width="1920" height="961" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2603834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2673667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -207,9 +225,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AshkansSphere.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <marker date="1560947525408" expanded="false" signature="6:117" ph="..." />
+            <marker date="1560947525408" expanded="true" signature="199:1287" ph="{...}" />
+            <marker date="1560947525408" expanded="true" signature="437:531" ph="{...}" />
+            <marker date="1560947525408" expanded="true" signature="583:622" ph="{...}" />
+            <marker date="1560947525408" expanded="true" signature="653:882" ph="{...}" />
+            <marker date="1560947525408" expanded="true" signature="901:1285" ph="{...}" />
+            <marker date="1560947525408" expanded="true" signature="979:1032" ph="{...}" />
+            <marker date="1560947525408" expanded="true" signature="1161:1279" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/cameraFollow.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="375">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <marker date="1560940840733" expanded="true" signature="6:92" ph="..." />
@@ -220,19 +255,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AshkansSphere.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        <state relative-caret-position="375">
+          <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
           <folding>
-            <marker date="1560947525408" expanded="false" signature="6:117" ph="..." />
-            <marker date="1560947525408" expanded="true" signature="199:1287" ph="{...}" />
-            <marker date="1560947525408" expanded="true" signature="437:531" ph="{...}" />
-            <marker date="1560947525408" expanded="true" signature="583:622" ph="{...}" />
-            <marker date="1560947525408" expanded="true" signature="653:882" ph="{...}" />
-            <marker date="1560947525408" expanded="true" signature="901:1285" ph="{...}" />
-            <marker date="1560947525408" expanded="true" signature="979:1032" ph="{...}" />
-            <marker date="1560947525408" expanded="true" signature="1161:1279" ph="{...}" />
+            <marker date="1561457905503" expanded="true" signature="6:108" ph="..." />
+            <marker date="1561457905503" expanded="true" signature="153:879" ph="{...}" />
+            <marker date="1561457905503" expanded="true" signature="509:788" ph="{...}" />
+            <marker date="1561457905503" expanded="true" signature="566:782" ph="{...}" />
+            <marker date="1561457905503" expanded="true" signature="846:867" ph="{...}" />
           </folding>
         </state>
       </provider>
